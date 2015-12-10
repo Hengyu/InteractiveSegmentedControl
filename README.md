@@ -9,15 +9,15 @@ Jump to the demo file to see how to use it.
 
 # Use
 
-'''
+'
 ...
 let seg = InteractiveSegmentedControl(items: [AnyObject])
 let swipGes = UISwipeGestureRecognize(...)
 seg.interactiveGesture = swipGes
 ...
-'''
+'
 
-# Implementation behind InteractiveSegmentedControl
+# Idea behind
 
 Initialize to image views for masking. One is for start segment, the other is destination segment. Add them to each segment as subview. Change the alpha of them while the swipe gesture is recognized.
 
