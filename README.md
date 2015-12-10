@@ -9,13 +9,13 @@ Jump to the demo file to see how to use it.
 
 # Use
 
-'
+```
 ...
 let seg = InteractiveSegmentedControl(items: [AnyObject])
 let swipGes = UISwipeGestureRecognize(...)
 seg.interactiveGesture = swipGes
 ...
-'
+```
 
 # Idea behind
 
