@@ -17,11 +17,13 @@ seg.interactiveGesture = swipGes
 ...
 ```
 
-# Idea behind
+# The other
 
-Initialize to image views for masking. One is for start segment, the other is destination segment. Add them to each segment as subview. Change the alpha of them while the swipe gesture is recognized.
+## Idea behind
 
-# More
+Initialize two image views for masking. One is for start segment, the other is destination segment. Add them to each segment as subview. Change the alpha of them while the swipe gesture is recognized.
+
+## More
 
 After Apple has released iOS 9.2, I found this feature has been removed/disabled. Maybe it is not comform to HIG to some extent :) 
 I do not suggest to use this in iOS app, since this may be an Android style as well as I think is not conform to HIG indeed.
