@@ -7,6 +7,8 @@ InteractiveSegmentedControl is a swift implementation of this effect. It is the 
 
 Jump to the demo file to see how to use it.
 
+![Screenshot](https://raw.github.com/hengyu/InteractiveSegmentedControl/master/Screenshot/out.gif)
+
 # Use
 
 ```
