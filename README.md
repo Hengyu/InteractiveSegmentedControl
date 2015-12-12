@@ -9,7 +9,7 @@ Jump to the demo file to see how to use it.
 
 ![Screenshot](https://raw.github.com/hengyu/InteractiveSegmentedControl/master/Screenshot/out.gif)
 
-# Use
+# Usage
 
 ```
 ...
@@ -21,11 +21,11 @@ seg.interactiveGesture = swipGes
 
 # The other
 
-## Idea behind InteractiveSegmentedControl
+- Idea
 
 Initialize two image views for masking. One is for start segment, the other is destination segment. Add them to each segment as subview. Change the alpha of them while the swipe gesture is recognized.
 
-## More
+- More
 
 After Apple released iOS 9.2, I found this feature has been removed. Maybe it is not comform to HIG to some extent :) 
 
