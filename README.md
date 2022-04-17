@@ -30,4 +30,4 @@ Initialize two image views for masking. One is for start segment, the other is d
 After Apple released iOS 9.2, I found this feature has been removed. Maybe it is not comform to HIG to some extent :) 
 
 # License
-InteractiveSegmentedControl is published under MIT License. See the LICENSE file for more.
+`InteractiveSegmentedControl` is available under the [MIT License](LICENSE).

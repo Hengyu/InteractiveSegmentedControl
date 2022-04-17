@@ -15,10 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let swipe = UIPanGestureRecognizer(target: nil, action: nil)
         view.addGestureRecognizer(swipe)
-        
+
         let seg = InteractiveSegmentedControl(items: ["a", "b", "c"])
         seg.selectedSegmentIndex = 1
-        seg.frame = CGRectMake(100, 100, 100, 44)
+        seg.frame = CGRect(x: 100, y: 100, width: 100, height: 44)
         seg.interactiveGesture = swipe
         view.addSubview(seg)
     }
@@ -28,6 +28,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-

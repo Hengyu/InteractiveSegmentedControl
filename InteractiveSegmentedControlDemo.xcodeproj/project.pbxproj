@@ -220,6 +220,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -415,6 +416,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hengyu.InteractiveSegmentedControlDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -426,6 +428,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hengyu.InteractiveSegmentedControlDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -496,6 +499,7 @@
 				19BADC0F1C19599E00F8A13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19BADC101C19599E00F8A13D /* Build configuration list for PBXNativeTarget "InteractiveSegmentedControlDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +508,7 @@
 				19BADC121C19599E00F8A13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19BADC131C19599E00F8A13D /* Build configuration list for PBXNativeTarget "InteractiveSegmentedControlDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				19BADC151C19599E00F8A13D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
